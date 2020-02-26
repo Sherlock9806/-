@@ -36,12 +36,12 @@ WorkerManager::WorkerManager()
 	init_Emp();
 
 	//测试代码
-	for (int i = 0; i < m_EmpNum; i++)
-	{
-		cout << "职工号： " << this->m_EmpArray[i]->m_Id
-			<< " 职工姓名： " << this->m_EmpArray[i]->m_Name
-			<< " 部门编号： " << this->m_EmpArray[i]->m_DeptId << endl;
-	}
+	//for (int i = 0; i < m_EmpNum; i++)
+	//{
+	//	cout << "职工号： " << this->m_EmpArray[i]->m_Id
+	//		<< " 职工姓名： " << this->m_EmpArray[i]->m_Name
+	//		<< " 部门编号： " << this->m_EmpArray[i]->m_DeptId << endl;
+	//}
 
 }
 //清空文件
